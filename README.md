@@ -51,8 +51,6 @@ g++ -O3 (ή –O0) –fopenmp -Wall -Wextra -o RDP_omp RDP_omp.cpp
 export OMP_NUM_THREADS=<Πλήθος νημάτων ανά παράλληλη περιοχή>
 ./RDP_omp <Παράμετροι γραμμής εντολής>
 
-Παράμετροι:
-  polylines_small.txt 0.1 0
-  polylines_small.txt 0.01 0
-  polylines_small.txt 0.001 0
-  polylines_small.txt 0.0001 0
+- Parameters: polylines_small.txt 0.1 0, polylines_small.txt 0.01 0, polylines_small.txt 0.001 0, polylines_small.txt 0.0001 0
+  
+- Polylines large file: https://drive.google.com/file/d/1Sc_mOqag7wjEiupZEJ30p6jW95Go_HlY/view
